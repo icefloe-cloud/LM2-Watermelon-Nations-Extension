@@ -1,0 +1,35 @@
+[//文明
+
+    {
+        "name": "Manchuria",//文明名字
+        "leaderName": "Nurhaci",//领导人
+        "adjective": ["Manchurian"],//形容词
+        "startBias": ["Avoid [Coast]"],//初始点偏向
+        "preferredVictoryType": "Domination",//胜利方式
+        "startIntroPart1": " ",//介绍
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",//宣战其他文明
+        "attacked": "You shall regret this!",//被其他文明宣战回应
+        "defeated": "The victory is yours.",//战败
+        "introduction": "Welcome, mighty leader.",//向其他文明打招
+        "neutralHello": "Greetings.",//中立的贸易介绍
+        "hateHello": "What do you want?",//敌对的贸易介绍
+        "tradeRequest": "Better hurry, I may change my mind.",//贸易请求
+        "outerColor": [254,204,32],//外圈颜色
+        "innerColor": [0,55,106],//内圈颜色
+        "uniqueName": "Eight Banners",//能力名字
+        "uniques": [
+        "[Military] units gain the [Manchuria ability] promotion",  
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+        ],
+        "cities": [
+            "Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
+            "Ningdota","Siping","Anshan","Lushun","Liaoyuan","Gulian","Yanxi","Fengtian","Harbin","Qiqihar",
+            "Suiha","Daqing","Jiamusi","Yichun","Jixi","Jilin","Songyuan","Baicheng","Yanbian","Nanling"
+        ],
+        "spyNames": [
+            "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
+        ]
+    },
+
+    ]
