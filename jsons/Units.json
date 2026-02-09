@@ -1,0 +1,32 @@
+[
+
+{
+		"name": "baqijun",//名字
+		"unitType": "Foot Soldier",//单位类型
+		"uniqueTo": "Manchuria",//独属文明
+		"replaces": "Musketman",//代替单位
+		"movement": 3,//移动力
+		"strength": 28,//攻击力
+		"cost": 207,//建造所需产能
+		"requiredTech": "Gunpowder",//需要科技
+		"obsoleteTech": "Rifling",//过时科技
+		"upgradesTo": "Rifleman",//升级
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],//能力
+		"attackSound": "shot"//攻击音效
+	},
+//公民单位
+{
+	"name": "Worker",
+	"unitType": "Civilian",
+	"movement": 2,
+	"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
+	"Can build [Polder] improvements on tiles <for [The Netherlands] Civilizations> <hidden from users>",
+		 "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>",
+		"Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>"
+		"Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
+		"Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>",
+		"Can instantly construct a [Ruins] improvement <once> <for all movement> <for [Sumusuming] Civilizations> <hidden from users>",
+	    "[This Unit] loses the [Hongli ability] promotion <costs [-50 Production] stats> <for units with [Hongli ability]> <in [City center] tiles> <by consuming this unit> <(modified by game speed)> <hidden from users>"],
+	"cost": 63
+},
+]
